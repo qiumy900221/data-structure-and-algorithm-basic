@@ -8,9 +8,9 @@ public class LinearSearch {
     private LinearSearch() {
     }
 
-    public static int searchIndex(int[] data, int target) {
+    public static <T> int searchIndex(T[] data, T target) {
         for (int i = 0; i < data.length; i++) {
-            if (data[i] == target) {
+            if (data[i].equals(target)) {
                 return i;
             }
         }

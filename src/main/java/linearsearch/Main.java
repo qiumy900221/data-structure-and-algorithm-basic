@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] data = {24, 18, 12, 9, 16, 66, 32, 4};
+        Integer[] data = {24, 18, 12, 9, 16, 66, 32, 4};
         int target = 66;
 
         int index = LinearSearch.searchIndex(data, target);
